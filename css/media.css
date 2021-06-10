@@ -1,0 +1,92 @@
+/* Smart Phones And Tablets */
+
+@media (max-width:768px) {
+    .header .navbar .navbar-nav {
+        margin: 20px 0 0;
+        background: #fff;
+        text-align: center
+    }
+    .header .navbar .navbar-nav .nav-link {
+        color: #000;
+        margin: 5px 0
+    }
+    .header .navbar .navbar-nav .nav-link.active,
+    .header .navbar .navbar-nav .nav-link:hover {
+        color: #fff;
+        border-radius: 0
+    }
+    .header .info h1 {
+        font-size: 34px
+    }
+    .feat .text-feat h1,
+    .mobile-application h1,
+    .video .text-video h1 {
+        font-size: 35px
+    }
+    .team .info h1,
+    .portfolio .info h1,
+    .package .info h1 {
+        font-size: 50px
+    }
+    .team .info p,
+    .portfolio .info p,
+    .package .info p,
+    .clients .content-clients p,
+    .blog .text-blog p,
+    .contact .info p {
+        max-width: 100%
+    }
+    .team .info-person .caption {
+        height: 29%
+    }
+    .team-num2 .info-team h1,
+    .blog .text-blog h1,
+    .contact .info h1 {
+        font-size: 43px
+    }
+    .team-num2 .info-team p {
+        margin: 10px 0 20px
+    }
+    .clients .content-clients p q {
+        font-size: 20px
+    }
+    .video .text-video {
+        text-align: center
+    }
+    #scrollTop {
+        right: 25px
+    }
+}
+
+/* Small Screen */
+
+@media (min-width:769px) and (max-width:991px) {
+    .header .navbar .navbar-nav {
+        margin: 20px 0 0;
+        background: #fff;
+        text-align: center
+    }
+    .header .navbar .navbar-nav .nav-link {
+        color: #000;
+        margin: 5px 0
+    }
+    .header .navbar .navbar-nav .nav-link.active,
+    .header .navbar .navbar-nav .nav-link:hover {
+        color: #fff;
+        border-radius: 0
+    }
+    .team .info p,
+    .portfolio .info p,
+    .package .info p,
+    .clients .content-clients p,
+    .contact .info p {
+        max-width: 100%
+    }
+    .team-num2 .info-team p {
+        margin: 10px 20px 20px
+    }
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px) {}
